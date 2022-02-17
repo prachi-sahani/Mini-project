@@ -1,0 +1,30 @@
+.add-note-box {
+  width: 100%;
+}
+
+.add-note-title,
+.add-note-content {
+  outline: none;
+  width: 100%;
+  padding: 4px;
+}
+
+.add-note-content {
+  resize: none;
+}
+
+.add-note-footer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.btn-close {
+  color: var(--black-700);
+  margin-left: auto;
+}
+
+.note-action-icons .btn-icon {
+  font-size: 1.5rem;
+}
