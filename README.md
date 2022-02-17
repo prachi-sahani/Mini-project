@@ -1,2 +1,2 @@
-# Mini-project
+# Cakeopedia - Note taking app
 mini project for neogcamp
