@@ -1,0 +1,43 @@
+:root{
+  --light-coral: #f28b82;
+  --selective-yellow: #fbbc04;
+  --mauve: #d7aefb;
+  --menthol: #ccff90;
+  --pale-cornflower-blue: #aecbfa;
+  --bright-gray: #e8eaed;
+}
+
+/* common styling for all radio buttons and checkboxes - will include it in component library later on */
+.radio-input-group,
+.checkbox-input-group {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  height: 0.9rem;
+  width: 0.9rem;
+}
+
+input[type="radio"]:checked,
+input[type="checkbox"]:checked,
+input[type="range"] {
+  accent-color: var(--primary-900);
+}
+
+body {
+  overflow-x: hidden;
+  color: var(--black-600);
+}
+
+nav {
+  box-shadow: 1px 1px 2px 1px var(--black-050);
+}
+
+.logo {
+  height: 2.5rem;
+  padding: 4px;
+}
