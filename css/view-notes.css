@@ -1,0 +1,64 @@
+main {
+  padding: 1rem;
+}
+
+.navbar-action button {
+  font-size: 1.5rem;
+}
+
+/* styling for search bar */
+.search,
+.search-mobile {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  padding: 4px;
+  background-color: #e8e8e8; /* using it just for search bar*/
+  border-radius: 4px;
+  flex-grow: 1;
+  margin: auto;
+  max-width: 30rem;
+  width: 90%;
+}
+
+.search-mobile {
+  display: none;
+}
+
+.search-input {
+  outline: none;
+  flex-grow: 1;
+  background-color: #e8e8e8; /* using it just for search bar*/
+  width: 100%;
+}
+
+.search .btn-icon {
+  font-size: 1.5rem;
+  padding: 4px;
+}
+
+.search .btn-icon:hover {
+  background-color: var(--black-100);
+}
+
+.note-footer .btn-icon {
+  font-size: 1.5rem;
+  padding: 4px;
+}
+
+.add-note {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+  .search {
+    display: none;
+  }
+
+  .search-mobile {
+    display: flex;
+    margin: 1rem auto;
+  }
+}
