@@ -41,3 +41,8 @@ nav {
   height: 2.5rem;
   padding: 4px;
 }
+
+/* for link buttons - temporary*/
+a{
+  text-decoration: none;
+}
